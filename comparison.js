@@ -1,36 +1,33 @@
-if ((x = y)) {
-  return "true";
-  {
-    return "false";
-  }
+var x = 5;
+var y = 6;
+
+if (x == y) {
+  console.log("true");
+} else {
+  console.log("false");
 }
-if (x != y) {
-  return "true";
-  {
-    return "false";
-  }
+if (x !== y) {
+  console.log("true");
+} else {
+  console.log("false");
 }
 if (x > y) {
-  return "true";
-  {
-    return "false";
-  }
+  console.log("true");
+} else {
+  console.log("false");
 }
 if (x >= y) {
-  return "true";
-  {
-    return "false";
-  }
+  console.log("true");
+} else {
+  console.log("false");
 }
 if (x <= y) {
-  return "true";
-  {
-    return "false";
-  }
+  console.log("true");
+} else {
+  console.log("false");
 }
 if (x < y) {
-  return "true";
-  {
-    return "false";
-  }
+  console.log("true");
+} else {
+  console.log("false");
 }
