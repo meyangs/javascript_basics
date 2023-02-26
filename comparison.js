@@ -2,32 +2,32 @@ var x = 5;
 var y = 6;
 
 if (x == y) {
-  console.log("true");
+  console.log("x == y", x == y);
 } else {
-  console.log("false");
+  console.log("x == y", x == y);
 }
 if (x !== y) {
-  console.log("true");
+  console.log("x !== y", x !== y);
 } else {
-  console.log("false");
+  console.log("x !== y", x !== y);
 }
 if (x > y) {
-  console.log("true");
+  console.log("x > y", x > y);
 } else {
-  console.log("false");
+  console.log("x > y", x > y);
 }
 if (x >= y) {
-  console.log("true");
+  console.log("x >= y", x >= y);
 } else {
-  console.log("false");
+  console.log("x >= y", x >= y);
 }
 if (x <= y) {
-  console.log("true");
+  console.log("x <= y", x <= y);
 } else {
-  console.log("false");
+  console.log("x <= y", x <= y);
 }
 if (x < y) {
-  console.log("true");
+  console.log("x < y", x < y);
 } else {
-  console.log("false");
+  console.log("x < y", x < y);
 }

@@ -2,12 +2,12 @@ var x = 5;
 var y = 6;
 
 if (x > 50 && y < 100) {
-  console.log("true");
+  console.log("x > 50 && y < 100", x > 50 && y < 100);
 } else {
-  console.log("false");
+  console.log("x > 50 && y < 100", x > 50 && y < 100);
 }
 if (x > 50 || y < 100) {
-  console.log("true");
+  console.log("x > 50 || y < 100", x > 50 || y < 100);
 } else {
-  console.log("false");
+  console.log("x > 50 || y < 100", x > 50 || y < 100);
 }
